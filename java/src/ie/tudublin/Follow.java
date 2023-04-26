@@ -21,7 +21,7 @@ public class Follow {
 
     @Override
     public String toString() {
-        return "Follow [word=]" + word + ", count=" + count + "]";
+        return "Follow [word=" + word + ", count=" + count + "]";
     }
 }
 
