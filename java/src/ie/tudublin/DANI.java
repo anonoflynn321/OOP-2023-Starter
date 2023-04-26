@@ -9,9 +9,23 @@ public class DANI extends PApplet {
 
 	public void loadFile() {
 
-		String[] wordLL;
+		String[] readFile;
+		String[] wordArray;
 		
-		wordLL = loadStrings("small.txt");
+		readFile = loadStrings("small.txt");
+		
+		for (int i = 0; i < readFile.length; i++) {
+			readFile[i].replaceAll("[^\\w\\s]","");
+		}
+
+		/*
+		for (int i = 0; i < wordArray.length; i++) {
+			
+		}
+		*/
+
+
+		 
 	}
 
 	public String findWord() {
